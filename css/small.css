@@ -9,28 +9,18 @@
 }
 
 body {
+    margin: 2rem auto;
     font-size: 16px;
+    justify-items: center;
 }
 
-header, footer{
+header, main, footer{
     max-width: 700px;
     margin: 0 auto;
 }
 
-img {
-    box-shadow: 3px 3px 4px grey;
-}
-
-h1 {
-    color: #696969;
-    padding-left: 15rem;
-    font-family: 'Dosis', sans-serif;
-    font-size: 45px;
-    font-weight: 300;
-}
-
 header{
-    margin: 1rem;
+    margin: 2rem auto;
     border: 1px solid #bbb;
     padding: 1rem;
     padding-left: 2rem;
@@ -42,20 +32,43 @@ header{
     align-items: center;
 }
 
-main {
-    max-width: 900px;
-    padding-right: 200px;
-    margin: 0 auto;
+h1 {
+    color: #696969;
+    padding-left: 15rem;
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
 }
 
+img {
+    box-shadow: 3px 3px 4px grey;
+}
+
+
 h2 {
+    margin: 1.5rem;
     color: #696969;
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+}
+
+li {
+    margin-left: 3.5rem;
+    margin-top: 1.5rem;
+}
+
+hr {
+    max-width: 650px;
+    margin: 2rem auto;
+}
+
+main p {
+    font-style: italic;
 }
 
 footer {
-margin: 1rem;
+margin: 2rem auto;
 border: 1px solid #bbb;
 background-color: aliceblue;
 display: grid;
