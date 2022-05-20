@@ -1,4 +1,4 @@
-const input = document.querySelector("#chap");
+const input = document.querySelector("#chapter");
 const button = document.querySelector("button");
 const list = document.querySelector (".list");
 
