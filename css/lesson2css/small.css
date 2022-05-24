@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body {
+    justify-items: center;
+    font-size: 14px;
+    font-family: "Dosis", sans-serif;
+}
+
+header, main, footer {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 2rem;
+    border: 1px solid #bbb;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+header p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+section {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin: 0.5rem;
+    overflow: hidden;
+    border: 1px solid #bbb;
+    background-color: aliceblue;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    background-color:#bbb;
+    padding: 1rem;
+}
+
+section p {
+    font-size: 0.8rem; 
+    padding: 1rem;  
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #bbb;
+}
+
+footer {
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #bbb;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer p {
+    margin: 0.5rem;
+}
