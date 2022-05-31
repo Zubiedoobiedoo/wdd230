@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Quicksand&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Raleway:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 3rem;
+    padding: .5rem;
+    text-align: center;
+    color: #696969;
+    background-color: aliceblue;
+    border: 1px solid #bbb;
+    border-radius: 15px 15px 15px 15px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: aliceblue;
+    border: 1px solid #bbb;
+    border-radius: 15px 15px 15px 15px;
+}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: #696969;
+}
+
+nav a:hover {
+    color: aliceblue;
+    background-color: #696969;
+    transition: 0.5s;
+    border-radius: 15px 15px 15px 15px;
+}
+
+h2 {
+    padding: .5rem;
+}
+
+h3 {
+    margin: 1rem;
+    padding-left: .5rem;
+}
+
+p {
+    margin: 2rem;
+    padding-left: 1rem;
+}
+
+ul {
+    margin: 2rem;
+    padding-left: 1rem;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: .5rem;
+    text-align: center;
+    color: #696969;
+    background-color: aliceblue;
+    border: 1px solid #bbb;
+    border-radius: 15px 15px 15px 15px; 
+}
