@@ -2,86 +2,171 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Quicksand&family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Raleway:wght@100&display=swap');
 
+/*HTML Selectors*/
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: white;
+  --secondary-color: #B3DEB6;
+  --accent1-color: black;
+  --accent2-color: #3E2F28;
+
+  --heading-font: "Merriweather", Garamond, serif;
+  --paragraph-font: "Poppins", Arial, sans-serif;
+
+  --nav-link-color: #00297A;
+  /*--nav-hover-link-color: white;*/
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--primary-color);
 }
 
 body {
-    font-family: "Dosis", sans-serif;
-    font-size: 18px;
-    max-width: 80%;
-    margin: 0 auto;
+  font-family: var(--paragraph-font);
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: 16px;
 }
 
 header {
-    margin-top: 3rem;
-    padding: .5rem;
-    text-align: center;
-    color: #696969;
-    background-color: aliceblue;
-    border: 1px solid #bbb;
-    border-radius: 15px 15px 15px 15px;
+  margin-top: 3rem;
+  padding: .5em;
+  text-align: center;
+  color: var(--accent1-color);
+  background-color: var(--secondary-color);
+  border: 1px solid gray;
+}
+
+#returning-instruction {
+  font-size: 1rem;
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background: aliceblue;
-    border: 1px solid #bbb;
-    border-radius: 15px 15px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--secondary-color);
+  border: 1px solid gray;
 }
 
 nav div {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 nav a {
-    display: block;
-    font-size: 1rem;
-    text-align: center;
-    text-decoration: none;
-    padding: 1rem;
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: #696969;
+  color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: aliceblue;
-    background-color: #696969;
-    transition: 0.5s;
-    border-radius: 15px 15px 15px 15px;
+  color: var(--secondary-color);
+  background-color: var(--accent2-color);
+}
+
+h1, h2, h3 {
+  font-family: var(--heading-font);
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 h2 {
-    padding: .5rem;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: var(--secondary-color);
 }
 
 h3 {
-    margin: 1rem;
-    padding-left: .5rem;
+  font-size: .9rem;
+  text-align: center;
+  margin-top: 2.5rem;
+  /*border-bottom: var(--secondary-color) solid;*/
+  text-decoration: underline;
 }
 
 p {
-    margin: 2rem;
-    padding-left: 1rem;
+  font-family: var(--paragraph-font);
+  text-align: center;
+  padding: 0.6rem;
 }
 
+img {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
 ul {
-    margin: 2rem;
-    padding-left: 1rem;
+  margin: 2rem;
+  padding-left: 1rem;
+}
+
+.colors div {
+  margin: 0 auto;
+  width: 6rem;
+  height: 2rem;
+  border-style: solid;
+}
+
+.primary {
+  background-color: white;
+}
+
+.secondary {
+  background-color: black;
+}
+
+.accent1 {
+  background-color: #BFBFBF;
+}
+
+.accent2 {
+  background-color: #FFD700;
+}
+
+.accent1 p, .accent2 p {
+  margin: 0 auto;
+  padding: 0.3rem;
 }
 
 footer {
-    margin-top: 3rem;
-    padding: .5rem;
-    text-align: center;
-    color: #696969;
-    background-color: aliceblue;
-    border: 1px solid #bbb;
-    border-radius: 15px 15px 15px 15px; 
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid gray;
+  color: var(--accent1-color);
+  background-color: var(--secondary-color);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+footer img {
+  width: 2.5rem;
+  border-radius: 1.5rem;
+  margin: 0.5rem;
+  float: left;
+}
+
+footer img:hover {
+  width: 2.7rem;
+}
+
+footer p {
+  margin: 0.5rem;
+  font-size: 1rem;
 }

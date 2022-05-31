@@ -1,5 +1,48 @@
-@media only screen and (min-width: 32.5em) {
-    nav {
-        flex-direction: row;
+@media only screen and (min-width: 40em) {
+
+    h1 {
+      font-size: 1.7rem;
     }
-}
+  
+    nav {
+      flex-direction: row;
+    }
+  
+    nav a {
+      font-size: 1.1rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+      text-align: left;
+      background-color: unset;
+      border-color: #B3DEB6;
+      border-bottom-style: solid;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+      text-align: left;
+      margin-left: 1rem;
+    }
+  
+    main p {
+      font-size: 1.1rem;
+      text-align: unset;
+      margin-left: 1rem;
+    }
+  
+    main img {
+      display: inline;
+      margin: 1rem;
+    }
+  
+    .colors div {
+      margin-left: 2rem;
+    }
+  
+    footer p {
+      font-size: 1.1rem;
+    }
+  
+  }
