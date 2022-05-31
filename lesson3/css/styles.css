@@ -31,7 +31,6 @@ nav {
     text-align: center;
     background: aliceblue;
     border: 1px solid #bbb;
-    border-radius: 15px 15px 15px 15px;
 }
 
 nav div {
@@ -54,7 +53,6 @@ nav a:hover {
     color: aliceblue;
     background-color: #696969;
     transition: 0.5s;
-    border-radius: 15px 15px 15px 15px;
 }
 
 h2 {
@@ -89,7 +87,6 @@ footer {
     color: #696969;
     background-color: aliceblue;
     border: 1px solid #bbb;
-    border-radius: 15px 15px 15px 15px; 
 }
 
 @media (max-width: 600px) {
