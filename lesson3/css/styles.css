@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Quicksand&family=Raleway:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Quicksand&family=Raleway:wght@100&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Raleway:wght@100&display=swap%27');
 
 * {
     margin: 0;
@@ -27,7 +27,7 @@ header {
 
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     background: aliceblue;
     border: 1px solid #bbb;
@@ -59,11 +59,17 @@ nav a:hover {
 
 h2 {
     padding: .5rem;
+    font-weight: bold;
 }
 
 h3 {
     margin: 1rem;
     padding-left: .5rem;
+    text-decoration: underline;
+}
+
+img {
+    padding-left: 1.5rem;
 }
 
 p {
@@ -84,4 +90,10 @@ footer {
     background-color: aliceblue;
     border: 1px solid #bbb;
     border-radius: 15px 15px 15px 15px; 
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
 }
