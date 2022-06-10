@@ -1,0 +1,155 @@
+@media only screen and (min-width: 52rem) {
+
+    #logo-box img {
+      width: 7rem;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+  
+    h3 {
+      font-size: .75rem;
+    }
+  
+    #title-box p {
+      font-size: 1.1rem;
+    }
+  
+    nav {
+      padding: .5rem;
+      order: 0;
+    }
+  
+    nav button,
+    #secondarynav {
+      display: none;
+    }
+  
+    #primarynav {
+      display: flex;
+      justify-content: center;
+    }
+  
+    #primarynav li {
+      width: 6rem;
+      text-align: center;
+    }
+  
+    #primarynav a {
+      border: none;
+      font-size: 1.1rem;
+    }
+  
+    #social-media img {
+      width: 1.5rem;
+    }
+
+      
+    footer {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    footer img {
+      width: 7rem;
+    }
+  
+    #footer1 {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    #footer-address {
+      display: flex;
+    }
+  
+    #footer-address {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: left;
+    }
+  
+    #footer-address h2 {
+      font-size: 1.1rem;
+    }
+  
+    #footer-address p {
+      margin-top: 0.4rem;
+    }
+  
+    #footer-first-hr {
+      display: none;
+    }
+  
+    #footer-email {
+      display: flex;
+      justify-content: right;
+      padding-right: 35rem;
+    }
+  
+    #footer2 {
+      margin: 1rem;
+    }
+  
+    main {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    .hero-box {
+      grid-column: span 3;
+      grid-row: 1 / 2;
+    }
+  
+    .hero-box h2 {
+      font-size: 2rem;
+      top: 50px;
+      left: 40px;
+    }
+  
+    .event-box {
+      grid-column: span 2;
+      grid-row: 5 / 6;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .weather-box {
+      grid-column: span 1;
+      grid-row: 5 / 6;
+    }
+    
+    .join-box {
+      display: unset;
+      grid-column: span 3;
+      grid-row: 4 / 5;
+    }
+  
+    .news-box {
+      grid-column: span 3;
+      grid-row: 2 / 3;
+    }
+  
+    .spots-box {
+      grid-column: span 3;
+      grid-row: 3 / 4;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .spot1 {
+      grid-column: 1 / 2;
+      grid-row: unset;
+    }
+  
+    .spot2 {
+      grid-column: 2 / 3;
+      grid-row: unset;
+    }
+  
+  }
