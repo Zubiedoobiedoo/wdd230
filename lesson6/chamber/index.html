@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="name" content="Kristi M. Poulsen">
+    <meta name="description" content="This is a webpage used to teach us how to construct a simple site.">
+
+    <title>Lesson 5 - Kristi M. Poulsen</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <script src="js/scripts.js" defer></script>
+    
+  </head>
+
+  <body>
+    <div id="notify">
+      <span>🤝🏼Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+    </div>
+    <header>
+      <div id="header-box">
+        <div id="logo-box">
+            <source srcset="images/rocky_mountain_logo.webp">      
+            <img src="images/rocky_mountain_logo.png" alt="logo">
+        </div>
+        <nav>
+          <button id="hamburger-btn"><span>&#8801;</span><span>x</span></button>
+          <ul id="primarynav">
+            <li class="active"><a href="">Home</a></li>
+            <li><a href="">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="">Join</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="social-media">
+          <a id="twitter" href="https://www.twitter.com/" target="_blank">
+            <img src="images/twitter.png" alt="return">
+          </a>
+          <a id="facebook" href="https://www.facebook.com/" target="_blank">
+            <img src="images/facebook.png" alt="return">
+          </a>
+        </div>
+      </div>
+      <nav>
+        <ul id="secondarynav">
+          <li class="active"><a href="">Home</a></li>
+          <li><a href="">Discover</a></li>
+          <li><a href="">Directory</a></li>
+          <li><a href="">Join</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="header-box2">
+        <span id="current-date"></span>
+      </div>
+    </header>
+    <main>
+      <div class="hero-box">
+        <h2>Welcome to Rocky Mountain Commerce</h2>
+        <picture class="photo-a">
+          <source media="(max-width: 500px)" srcset="images/herosmall.webp">
+          <source media="(max-width: 850px)" srcset="images/heromedium.webp">
+          <source media="(max-width: 1152px)" srcset="images/hero.webp">
+          <img src="images/hero.jpg">
+        </picture>
+        <button class="styling-button">Join the Chamber</button>
+      </div>
+      <div class="event-box">
+        <h2>Ribbon Cutting</h2>
+        <h3>The Diamond Shack</h3>
+        <p class="weather-header">Join us for the grand opening of The Diamond Shack, Thursday at 1.00 P.M. <a href="">More Info...</a></p>
+      </div> 
+      <div id="weather-box">
+        <div>      
+          <h2>Weather</h1>
+          <p><img class="cloud" src="images/cloud.png" alt="cloud"> <span id="temp">89</span>°F</p>
+        <hr>
+        <p>Wind speed: <span id="windspeed">8</span>km/h</p>
+        <p>Wind chill: <span id="windchill">8</span>°F</p>
+      </div>
+      </div>      
+      <div class="join-box">
+        <p>Are you interested in joining the Rocky Mountain Commerce? Click to learn more!</p>
+        <button class="join">Join Us!</button>
+      </div>      
+      <div class="news-box">
+        <h2>News</h2>
+        <p>Utah hits record 50 degree drop overnight from cold front that blows in from the California coast. Residents should expect a severe rain storm and cool tempatures. Tempatures will
+          begin to rise again in the coming week. For more information, please visit your local weather channel or news site.
+        </p>
+      </div>  
+      <div class="spots-box">
+        <div class="spot1">
+          <h2>🚚 Happy Transporation 🚚</h2>
+          <h3>For All Your Transportation Needs</h3><br>
+          <hr>
+          <p>Website: happytransporation.com</p>
+          <p>Phone: 801-000-0000</p>
+        </div>        
+        <div class="spot2">
+          <h2>💻 Code For Life 💻</h2>
+          <h3>Coding Classes For Those Who Can't Code</h3><br>
+          <hr>
+          <p>Website: codeforlife.com</p>
+          <p>Phone: 801-000-0000</p>
+        </div>        
+        <div class="spot3">
+          <h2>🌿 Green Thumb Mowers 🌿</h2>
+          <h3>Mowing Your Lawn So You Don't Have To</h3><br>
+          <hr>
+          <p>Website: greenthumbmowers.com</p>
+          <p>Phone: 801-000-0000</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="footer1">
+        <div id="footer-address">
+          <div id="footer-logo"></div>
+                <source srcset="images/rocky_mountain_logo.webp"> 
+                <img src="images/rocky_mountain_logo.png" alt="Logo"> 
+          </div>
+          <div id="footer-address">
+            <h2>Rocky Mountain Commerce</h2>
+            <p>84111 50W 50S</p>
+            <p>Salt Lake City, Utah, United States of America</p>
+            <p>rockymountaincommerce@email.com</p>
+            <p>000-0000-000</p>
+            <a href="https://goo.gl/maps/nmLXgif7jF7xxQhf9" target="_blank">📍 Location Map</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div id="footer2">
+        <p>&copy; <span id="year"></span>
+          Rocky Mountain Commerce - Kristi M. Poulsen - WDD 230 Project <br> Last Modification <span id="lmod"></span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
