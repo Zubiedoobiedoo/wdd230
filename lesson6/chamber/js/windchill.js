@@ -10,7 +10,7 @@ const windChill = (fahrenheit, speedMph) =>{
 if (fahrenheit <= 50 && speedMph > 3.0) {
   let windChillCel = (windChill(fahrenheit, speedMph)-32)*0.6;
   windChillElement.textContent = parseInt(windChillCel) + "°F";
-} 
+  console.log(windChillCel)} 
 
 else {
   windChillElement.textContent = "N/A";
