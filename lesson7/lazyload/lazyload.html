@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="name" content="Kristi M. Poulsen">
+    <meta name="description" content="Here is a document working with lazy load!">
+    <title>Lazy Load - Kristi Poulsen</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/lazyload.css">
+
+    <script src="js/lazyload.js" defer></script>
+  
+  </head>
+  <body>
+    <header>
+      <h1>Lazy Loading - Images</h1>
+    </header>
+    <main>
+      <picture>
+        <img src="https://via.placeholder.com/300x400" data-src="images/blossom.png" alt="Cherry Blossoms">
+      </picture>
+      <picture>
+        <img src="https://via.placeholder.com/300x400/" data-src="images/cathedral.png" alt="Cathedral">
+      </picture>
+      <picture>
+        <img src="https://via.placeholder.com/300x400" data-src="images/dessert.png" alt="Macaroons">
+      </picture>
+      <picture>
+        <img src="https://via.placeholder.com/300x400" data-src="images/forest.png" alt="Forest">
+      </picture>
+      <picture>
+        <img src="https://via.placeholder.com/300x400" data-src="images/mast.png" alt="Ship Mast">
+      </picture>
+      <picture>
+        <img src="https://via.placeholder.com/300x400" data-src="images/ponds.png" alt="Water">
+      </picture>
+    </main>
+    
+    <footer>
+      <p>&copy; <span id="year"></span>
+        - Kristi M. Poulsen - WDD 230 Project <br> Last Modification <span id="lmod"></span>
+      </p>
+      </p>
+    </footer>
+  </body>
+</html>

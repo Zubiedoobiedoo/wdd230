@@ -1,39 +1,24 @@
-const dt = new Date();
-
-const years = dt.getFullYear();
-
-document.querySelector("#year").textContent = years;
-
-document.querySelector("#lmod").textContent = document.lastModified;
-
-let imagesToLoad = document.querySelectorAll('img[data-src]');
-
-const loadImages = (image) => {
+let images = document.querySelectorAll('img[data-src]');
+const imgOptions = {
+    threshold: 0,
+    rootMargin: "0px 0px -300px 0px"
+};
+const observer = new IntersectionObserver((imgElements, observer) => {
+    imgElements.forEach(image =>{
+        if(!image.isIntersecting){
+            return;
+        } else{
+            loadImage(image.target);
+            observer.unobserve(image.target);
+        }
+    })
+}, imgOptions);
+const loadImage = (image) => {
   image.setAttribute('src', image.getAttribute('data-src'));
   image.onload = () => {
     image.removeAttribute('data-src');
   };
 };
-
-imagesToLoad.forEach((img) => {
-    loadImages(img);
-  });
-
-if ('IntersectionObserver' in window) {
-    const imgObserver = new IntersectionObserver(items => {
-        items.forEach((item) => {
-            if (item.isIntersecting) {
-                loadImages(item.target);
-                imgObserver.unobserve(item.target);
-            }
-        });
-    }, imgOptions);
-
-    imagesToLoad.forEach((img) => {
-        imgObserver.observe(img);
-    });
-} else {
-    imagesToLoad.forEach(img => {
-        loadImages(img);
-    });
-}
+images.forEach(image => {
+    observer.observe(image);
+})
