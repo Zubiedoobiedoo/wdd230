@@ -21,8 +21,6 @@ function displayBusiness(business) {
     let website = document.createElement("a");
     let membership = document.createElement("p");
 
-
-    
     img.setAttribute('src', business.logo);
     img.setAttribute('alt', `${business.businessName} Logo`);
     img.setAttribute('loading', 'lazy');
@@ -36,11 +34,6 @@ function displayBusiness(business) {
     pNum.classList.add("bNum");
     website.textContent = business.url;
     membership.textContent = business.membershipLevel;
-
-    // if(business.website == "N/A") {
-        // business.website = "https://www.mcdonalds.com/us/en-us.html";
-        business.website = "https://kellyo-sm.github.io/wdd230/chamber/404.html";
-    // };
 
     website.setAttribute('href', `${business.website}`);
     website.classList.add("bWeb");
