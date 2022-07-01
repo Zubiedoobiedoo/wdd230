@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="name" content="Kristi M. Poulsen">
+    <meta name="description" content="This is a webpage used to teach us how to construct a simple site.">
+
+    <title>Lesson 8 - Kristi M. Poulsen</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <script src="js/scripts.js" defer></script> 
+    <script src="js/join.js" defer></script> 
+  </head>
+
+  <body>
+    <div id="notify">
+      <span>🤝🏼Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+    </div>
+    <header>
+      <div id="header-box">
+        <div id="logo-box">
+            <source srcset="images/rocky_mountain_logo.webp">      
+            <img src="images/rocky_mountain_logo.png" alt="logo">
+        </div>
+        <nav>
+          <button id="hamburger-btn"><span>&#8801;</span><span>x</span></button>
+          <ul id="primarynav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="discover.html">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="social-media">
+          <a id="twitter" href="https://www.twitter.com/" target="_blank">
+            <img src="images/twitter.png" alt="return">
+          </a>
+          <a id="facebook" href="https://www.facebook.com/" target="_blank">
+            <img src="images/facebook.png" alt="return">
+          </a>
+        </div>
+      </div>
+      <nav>
+        <ul id="secondarynav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="header-box2">
+        <span id="current-date"></span>
+      </div>
+    </header>
+
+    <main id="thank-you">
+        <div id="message-container">
+            <h2>Thank You!</h2>
+            <p>
+                Your information has been recorded.
+            </p>
+            
+            <form method="get" action="join.html">
+                <input type="submit" class="gobackBtn" value="Go Back">
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+      <div id="footer1">
+        <div id="footer-address">
+          <div id="footer-logo"></div>
+                <source srcset="images/rocky_mountain_logo.webp"> 
+                <img src="images/rocky_mountain_logo.png" alt="Logo"> 
+          </div>
+          <div id="footer-address">
+            <h2>Rocky Mountain Commerce</h2>
+            <p>84111 50W 50S</p>
+            <p>Salt Lake City, Utah, United States of America</p>
+            <p>rockymountaincommerce@email.com</p>
+            <p>000-0000-000</p>
+            <a href="https://goo.gl/maps/nmLXgif7jF7xxQhf9" target="_blank">📍 Location Map</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div id="footer2">
+        <p>&copy; <span id="year"></span>
+          Rocky Mountain Commerce - Kristi M. Poulsen - WDD 230 Project <br> Last Modification <span id="lmod"></span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

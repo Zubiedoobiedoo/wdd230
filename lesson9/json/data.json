@@ -1,0 +1,74 @@
+{"companies": [
+    {
+        "businessName": "Action Target",
+        "address": "23N 23W",
+        "phone": "000-000-0000",
+        "url": "actiontarget.com",
+        "logo": "./images/action-target.jpg",
+        "membershipLevel": "Bronze"
+    },
+    {
+        "businessName": "Cafe Rio",
+        "address": "24 N 36W",
+        "phone": "000-000-0000",
+        "url": "caferio.com",
+        "logo": "./images/cafe-rio.jpg",
+        "membershipLevel": "Bronze"
+    },
+    {
+        "businessName": "Digicert",
+        "address": "48S 20E",
+        "phone": "000-000-0000",
+        "url": "digicert.com",
+        "logo": "./images/digicert.jpg",
+        "membershipLevel": "Bronze"
+    },
+    {
+        "businessName": "Lagoon",
+        "address": "21N 31E",
+        "phone": "000-000-0000",
+        "url": "lagoon.com",
+        "logo": "./images/lagoon.jpg",
+        "membershipLevel": "Silver"
+    },
+    {
+        "businessName": "Liberty Safe",
+        "address": "613 Main Street",
+        "phone": "000-000-0000",
+        "url": "libertysafe.com",
+        "logo": "./images/liberty-safe.jpg",
+        "membershipLevel": "Silver"
+    },
+    {
+        "businessName": "Mountain America Credit Union",
+        "address": "1305 State Street",
+        "phone": "000-000-0000",
+        "url": "mountainamerica.com",
+        "logo": "./images/mountain-america-credit-union.jpg",
+        "membershipLevel": "Silver"
+    },
+    {
+        "businessName": "Vivint",
+        "address": "680 Main Street",
+        "phone": "000-000-0000",
+        "url": "vivint.com",
+        "logo": "./images/vivint.jpg",
+        "membershipLevel": "Gold"
+    },
+    {
+        "businessName": "Eborn Books",
+        "address": "8615 State Street",
+        "phone": "000-000-0000",
+        "url": "ebonbooks.com",
+        "logo": "./images/eborn-books.jpg",
+        "membershipLevel": "Gold"
+    },
+    {
+        "businessName": "Pluralsight",
+        "address": "6815 Main Street",
+        "phone": "000-000-0000",
+        "url": "pluralsight.com",
+        "logo": "./images/pluralsight.jpg",
+        "membershipLevel": "Gold"
+    }
+]}
