@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="name" content="Kristi M. Poulsen">
+    <meta name="description" content="This is a webpage used to teach us how to construct a simple site.">
+
+    <title>Discover RMC</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <script src="js/scripts.js" defer></script> 
+    <script src="js/lazyload.js" defer></script> 
+    <script src="js/discover.js" defer></script>    
+  </head>
+
+  <body>
+    <div id="notify">
+      <span>🤝🏼Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+    </div>
+    <header>
+      <div id="header-box">
+        <picture id="logo-box">
+            <source srcset="images/rocky_mountain_logo.webp">      
+            <img src="images/rocky_mountain_logo.png" alt="logo">
+        </picture>
+        <nav>
+          <button id="hamburger-btn"><span>&#8801;</span><span>x</span></button>
+          <ul id="primarynav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="social-media">
+          <a id="twitter" href="https://www.twitter.com/" target="_blank">
+            <img src="images/twitter.png" alt="return">
+          </a>
+          <a id="facebook" href="https://www.facebook.com/" target="_blank">
+            <img src="images/facebook.png" alt="return">
+          </a>
+        </div>
+      </div>
+      <nav>
+        <ul id="secondarynav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="header-box2">
+        <span id="current-date"></span>
+      </div>
+      <div id="visited">
+        <p>Amount of Times Visited: <span id="numbVisits">0</span></p>
+    </div>
+    </header>
+
+    <main id="discover-page">
+        <h1 class="discover-utah">Discover Utah - Photographs</h1>
+        <div class="card">
+        <picture id="welcome-to-utah">
+            <source srcset="images/welcome-to-utah600px.png" media="(min-width: 1008px)">
+            <source srcset="images/welcome-to-utah400px.png" media="(min-width:640px) and (max-width:1007px)">
+            <img src="https://via.placeholder.com/500x300" data-src="images/welcome-to-utah.jpg" alt="Welome To Utah Sign">
+        </picture>
+        <p class="info">Welcome to Utah sign just ouside of the Salt Lake Airport.</p>
+        </div>
+        <div class="card">
+        <picture>
+            <source srcset="images/salt-lake-temple600px.png" media="(min-width: 1008px)">
+            <source srcset="images/salt-lake-temple400px.png" media="(min-width:640px) and (max-width:1007px)">
+            <img src="https://via.placeholder.com/500x300" data-src="images/salt-lake-temple.jpg" alt="Salt Lake Temple">
+        </picture>
+        <p class="info">The Salt Lake City Temple is located in downtown Salt Lake.</p>
+        </div>
+        <div class="card">
+        <picture>
+            <source srcset="images/salt-lake-city600px.jpg" media="(min-width: 1008px)">
+            <source srcset="images/salt-lake-city400px.jpg" media="(min-width:640px) and (max-width:1007px)">
+            <img src="https://via.placeholder.com/500x300" data-src="images/salt-lake-city.jpg" alt="Salt Lake City">
+        </picture>
+        <p>Aerial view of downtown Salt Lake City.</p>
+        </div>
+        <div class="card">
+        <picture>
+            <source srcset="images/mountain600px.jpg" media="(min-width: 1008px)">
+            <source srcset="images/mountain400px.jpg" media="(min-width:640px) and (max-width:1007px)">
+            <img src="https://via.placeholder.com/500x300" data-src="images/mountain.jpg" alt="Mountains in the winter">
+        </picture>
+        <p>The Wasatch Mountains in winter.</p>
+        </div>
+        <div class="card">
+        <picture>
+            <source srcset="images/arches600px.jpg" media="(min-width: 1008px)">
+            <source srcset="images/arches400px.jpg" media="(min-width:640px) and (max-width:1007px)">
+            <img src="https://via.placeholder.com/500x300" data-src="images/arches.jpg" alt="Arches">
+        </picture>
+        <p>Arches National Park in Southern Utah.</p>
+        </div>
+
+        <h1 class="discover-utah">Discover Utah - Information</h1>
+        <div class="card-info">
+            <h2 class="info-header">About Utah</h2>
+            <p class="info-dump">Utah is a state in the Mountain West subregion of the Western United States. Utah is a landlocked U.S. state bordered to its east by Colorado, to its northeast by Wyoming, to its north by Idaho, to its south by Arizona, and to its west by Nevada. Utah also touches a corner of New Mexico in the southeast. Of the fifty U.S. states, Utah is the 13th-largest by area; with a population over three million, it is the 30th-most-populous and 11th-least-densely populated. Urban development is mostly concentrated in two areas: the Wasatch Front in the north-central part of the state, which is home to roughly two-thirds of the population and includes the capital city, Salt Lake City; and Washington County in the southwest, with more than 180,000 residents. Most of the western half of Utah lies in the Great Basin.
+            <p id="disclaimer">! Please Note - This excerpt was copied from Wikipedia. !</p>
+            </div>
+    </main>
+    
+    <footer>
+      <div id="footer1">
+        <picture id="footer-logo">
+            <source srcset="images/rocky_mountain_logo.webp"> 
+            <img src="images/rocky_mountain_logo.png" alt="logo">
+        </picture>
+          <div id="footer-address">
+            <h2>Rocky Mountain Commerce</h2>
+            <p>84111 50W 50S</p>
+            <p>Salt Lake City, Utah, United States of America</p>
+            <p>rockymountaincommerce@email.com</p>
+            <p>000-0000-000</p>
+            <a href="https://goo.gl/maps/nmLXgif7jF7xxQhf9" target="_blank">📍 Location Map</a>
+          </div>
+        </div>
+      <div id="footer2">
+        <p>&copy; <span id="year"></span>
+          Rocky Mountain Commerce - Kristi M. Poulsen - WDD 230 Project <br> Last Modification <span id="lmod"></span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
