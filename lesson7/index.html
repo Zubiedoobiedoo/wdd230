@@ -5,7 +5,7 @@
     <meta name="name" content="Kristi M. Poulsen">
     <meta name="description" content="This is a webpage used to teach us how to construct a simple site.">
 
-    <title>Lesson 6 - Kristi M. Poulsen</title>
+    <title>Lesson 7 - Kristi M. Poulsen</title>
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -23,10 +23,10 @@
     </div>
     <header>
       <div id="header-box">
-        <div id="logo-box">
+        <picture id="logo-box">
             <source srcset="images/rocky_mountain_logo.webp">      
             <img src="images/rocky_mountain_logo.png" alt="logo">
-        </div>
+        </picture>
         <nav>
           <button id="hamburger-btn"><span>&#8801;</span><span>x</span></button>
           <ul id="primarynav">
@@ -66,7 +66,7 @@
           <source media="(max-width: 500px)" srcset="images/herosmall.webp">
           <source media="(max-width: 850px)" srcset="images/heromedium.webp">
           <source media="(max-width: 1152px)" srcset="images/hero.webp">
-          <img src="images/hero.jpg">
+          <img src="images/hero.jpg" alt="hero img">
         </picture>
         <button class="styling-button">Join the Chamber</button>
       </div>
@@ -77,7 +77,7 @@
       </div> 
       <div id="weather-box">
         <div>      
-          <h2>Weather</h1>
+          <h2>Weather</h2>
           <p><img class="cloud" src="images/cloud.png" alt="cloud"> <span id="temp">89</span>°F</p>
         <hr>
         <p>Wind speed: <span id="windspeed">8</span>km/h</p>
@@ -120,11 +120,10 @@
     </main>
     <footer>
       <div id="footer1">
-        <div id="footer-address">
-          <div id="footer-logo"></div>
-                <source srcset="images/rocky_mountain_logo.webp"> 
-                <img src="images/rocky_mountain_logo.png" alt="Logo"> 
-          </div>
+        <picture id="footer-logo">
+          <source srcset="images/rocky_mountain_logo.webp"> 
+          <img src="images/rocky_mountain_logo.png" alt="Logo"> 
+        </picture>
           <div id="footer-address">
             <h2>Rocky Mountain Commerce</h2>
             <p>84111 50W 50S</p>
@@ -134,8 +133,6 @@
             <a href="https://goo.gl/maps/nmLXgif7jF7xxQhf9" target="_blank">📍 Location Map</a>
           </div>
         </div>
-        </div>
-      </div>
       <div id="footer2">
         <p>&copy; <span id="year"></span>
           Rocky Mountain Commerce - Kristi M. Poulsen - WDD 230 Project <br> Last Modification <span id="lmod"></span>
