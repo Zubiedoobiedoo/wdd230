@@ -1,5 +1,7 @@
-{"companies": [
+{
+    "companies": [
     {
+        "imageurl": "https://i1.lensdump.com/i/teZ5x7.jpg",
         "businessName": "Action Target",
         "address": "23N 23W",
         "phone": "000-000-0000",
@@ -8,6 +10,7 @@
         "membershipLevel": "Bronze"
     },
     {
+        "imageurl": "https://i2.lensdump.com/i/teZaRr.jpg",
         "businessName": "Cafe Rio",
         "address": "24 N 36W",
         "phone": "000-000-0000",
@@ -16,6 +19,7 @@
         "membershipLevel": "Bronze"
     },
     {
+        "imageurl": "https://i3.lensdump.com/i/teZhpF.jpg",
         "businessName": "Digicert",
         "address": "48S 20E",
         "phone": "000-000-0000",
@@ -24,6 +28,7 @@
         "membershipLevel": "Bronze"
     },
     {
+        "imageurl": "https://i1.lensdump.com/i/tegAI0.jpg",
         "businessName": "Lagoon",
         "address": "21N 31E",
         "phone": "000-000-0000",
@@ -32,6 +37,7 @@
         "membershipLevel": "Silver"
     },
     {
+        "imageurl": "https://i2.lensdump.com/i/tegWBD.jpg",
         "businessName": "Liberty Safe",
         "address": "613 Main Street",
         "phone": "000-000-0000",
@@ -40,6 +46,7 @@
         "membershipLevel": "Silver"
     },
     {
+        "imageurl": "https://i3.lensdump.com/i/tegioq.jpg",
         "businessName": "Mountain America Credit Union",
         "address": "1305 State Street",
         "phone": "000-000-0000",
@@ -48,6 +55,7 @@
         "membershipLevel": "Silver"
     },
     {
+        "imageurl": "https://i1.lensdump.com/i/tegIJM.jpg",
         "businessName": "Vivint",
         "address": "680 Main Street",
         "phone": "000-000-0000",
@@ -56,6 +64,7 @@
         "membershipLevel": "Gold"
     },
     {
+        "imageurl": "https://i.lensdump.com/i/teg2F3.jpg",
         "businessName": "Eborn Books",
         "address": "8615 State Street",
         "phone": "000-000-0000",
@@ -64,6 +73,7 @@
         "membershipLevel": "Gold"
     },
     {
+        "imageurl": "https://i.lensdump.com/i/teg08A.jpg",
         "businessName": "Pluralsight",
         "address": "6815 Main Street",
         "phone": "000-000-0000",
