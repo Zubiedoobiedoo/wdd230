@@ -548,7 +548,7 @@ input.submitBtn:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 1rem;
   margin: auto;
   color: #696969;
   max-width: 80%;
@@ -612,20 +612,15 @@ input.submitBtn:hover {
 .cards {
   grid-column: 1/4;
   display: grid;
-  grid-template-columns: repeat(auto-fit, mimmax(300px, 1fr));
   padding: .25rem;
   margin: auto;
-  background-color: #bbb;
   box-shadow: 3px 3px 12px grey;
 }
 
 .cards section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
   padding: 1rem;
   margin: 1rem;
+  box-shadow: 2px 2px 14px black;
 }
 
 .lists .card {
