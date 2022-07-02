@@ -102,4 +102,18 @@
     box-shadow: 8px 8px 12px #bbb;
   }
 
+  /* Directory */
+
+  .gridbtns {
+    margin-top: 4rem;
+    border: none;
+  }
+
+  #directory {
+    margin: 0 auto;
+    align-self: center;
+    padding: 2rem 4rem;
+    color: #696969
+  }
+
 }

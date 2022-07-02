@@ -550,15 +550,65 @@ input.submitBtn:hover {
   align-items: center;
   margin-left: 3rem;
   margin-right: 3rem;
-  margin: 0 auto;
+  margin-top: 4rem;
+  margin: auto;
   color: #696969;
+}
+
+#directory {
+  margin: 0 auto;
+  align-self: center;
+  padding: 2rem 4rem;
+  color: #696969
+}
+
+#grid {
+  width: 80%;
+  max-width: 20rem;
+  padding: 0.75rem;
+  margin-top: 1.2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #696969;
+  color: aliceblue;
+  border-radius: 9px;
+}
+
+#grid:hover {
+  box-shadow: 1px 1px 1.5px 1.5px #BBB;
+}
+
+#list {
+  width: 80%;
+  max-width: 20rem;
+  padding: 0.75rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-right: 3rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #696969;
+  color: aliceblue;
+  border-radius: 9px;
+}
+
+#list:hover {
+  box-shadow: 1px 1px 1.5px 1.5px #BBB;
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, nimmax(300px, 1fr));
   padding: .5rem;
-  margin: 0 auto;
+  margin: auto;
   background-color: #bbb;
   box-shadow: 3px 3px 12px grey;
 }
