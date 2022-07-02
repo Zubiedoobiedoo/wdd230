@@ -105,7 +105,8 @@
   /* Directory */
 
   .gridbtns {
-    margin-top: 4rem;
+    grid-column: 2/3;
+    margin-top: 2rem;
     border: none;
   }
 
