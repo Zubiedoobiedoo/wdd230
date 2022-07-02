@@ -562,6 +562,11 @@ input.submitBtn:hover {
   color: #696969
 }
 
+.gridbtns {
+  margin-top: 4rem;
+  border: none;
+}
+
 #grid {
   width: 80%;
   max-width: 20rem;
