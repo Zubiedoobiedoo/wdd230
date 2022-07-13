@@ -9,8 +9,8 @@
         "services": "N/A",
         "ordinances": "(Proxy) Endowments, (Proxy) Confirmations, (Proxy) Sealings, Proxy Baptisms, Melchizedek Priesthood Oridnations, Initiatory,",
         "history": "15 November 1968 - Announced, 7 December 1968 - Groundbreaking, 19 November 1974 - Dedicated, 14 August 2022 - Rededicated",
-        "ordinance schedule": "CURRENTLY CLOSED",
-        "session schedule": "CURRENTLY CLOSED",
+        "ordinanceSchedule": "CURRENTLY CLOSED",
+        "sessionSchedule": "CURRENTLY CLOSED",
         "imagePicture": "./images/washington-dc-temple.jpg"
     },
     {
@@ -22,8 +22,8 @@
         "services": "Clothing Rental Available, No Cafeteria Available, Patron Housing Available, Distribution Center Nearby",
         "ordinances": "(Proxy) Endowments, (Proxy) Confirmations, (Proxy) Sealings, Proxy Baptisms, Melchizedek Priesthood Oridnations, Initiatory,",
         "history": "4 October 2008 - Announcement, 23 October 2010 - Groundbreaking, 10 March 2019 - Dedication",
-        "ordinance schedule": "UNAVAILABLE",
-        "session schedule": "UNAVAILABLE",
+        "ordinanceSchedule": "UNAVAILABLE",
+        "sessionSchedule": "UNAVAILABLE",
         "imagePicture": "./images/rome-temple.jpg"
     },
     {
@@ -35,8 +35,8 @@
         "services": "Clothing Rental Available, No Cafeteria Available, Patron Housing Available, Distribution Center Nearby",
         "ordinances": "(Proxy) Endowments, (Proxy) Confirmations, (Proxy) Sealings, Proxy Baptisms, Melchizedek Priesthood Oridnations, Initiatory,",
         "history": "1 April 1981 - Announcement, 11 September 1982 - Groundbreaking, 10 January 1986 - Dedication",
-        "ordinance schedule": "UNAVAILABLE",
-        "session schedule": "UNAVAILABLE",
+        "ordinancSchedule": "UNAVAILABLE",
+        "sessionSchedule": "UNAVAILABLE",
         "imagePicture": "./images/lima-peru-temple.jpg"
     },
     {
@@ -48,8 +48,8 @@
         "services": "Clothing Rental Available, No Cafeteria Available, No Patron Housing Available, Distribution Center Nearby",
         "ordinances": "(Proxy) Endowments, (Proxy) Confirmations, (Proxy) Sealings, Proxy Baptisms, Melchizedek Priesthood Oridnations, Initiatory,",
         "history": "30 September - 1997 - Announcement, 13 June 1998 - Groundbreaking, 26 April 20000 - Dedication, 22 April 2018",
-        "ordinance schedule": "UNAVAILABLE",
-        "session schedule": "UNAVAILABLE",
+        "ordinanceSchedule": "UNAVAILABLE",
+        "sessionSchedule": "UNAVAILABLE",
         "imagePicture": "./images/houston-texas-temple.jpg"
     }
 ]}
