@@ -1,0 +1,947 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+/**************** Navigation *****************/
+
+  body {
+      background-color: white;
+      margin: 0 auto;
+      width: 100%;
+    }
+  
+  header {
+    background-color: #E0E1DD;
+    font-family: "Halant", serif;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  
+  #header-box {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  
+  #logo-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo-box img {
+    padding: 1rem;
+    width: 7rem;
+    height: auto;
+  }
+  
+  #social-media {
+    display: flex;
+  }
+  
+  #social-media a {
+    margin: .2rem;
+  }
+  
+  #social-media img {
+    width: 2.5rem;
+    height: auto;
+    margin: .5rem;
+  }
+  
+  #header-box2 {
+    color: #E0E1DD;
+  }
+  
+  nav {
+    text-align: center;
+    order: 2;
+  }
+
+  nav a {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  nav button {
+    border: none;
+    font-size: 3.5rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+  
+  nav ul.open {
+    display: block;
+  }
+
+  #primarynav a:hover {
+    color: #E0E1DD;
+    background-color: #0D1B2A;
+    transition: 0.7s;
+  }
+
+  #secondary-nav a:hover {
+    color: #E0E1DD;
+    background-color: #0D1B2A;
+    transition: 0.7s;
+  }
+  
+  #primarynav a, #secondary-nav a {
+    display: block;
+    padding: .5rem;
+    text-decoration: none;
+    color: #0D1B2A;
+    text-align: center;
+  }
+
+  #secondary-nav a {
+    font-size: 2rem;
+  }
+
+  .active {
+    border-bottom: 3px solid darkgrey;
+  }
+  
+  #hamburger-btn span:nth-child(1) {
+    display: block;
+    width: 6rem;
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+    border: none;
+    box-shadow: 3px 3px 12px grey;
+  }
+  
+  #hamburger-btn span:nth-child(2) {
+    display: none;
+    width: 6rem;
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+    border: none;
+    box-shadow: 3px 3px 12px grey;
+  }
+  
+  #hamburger-btn.open span:nth-child(1) {
+    display: none;
+    width: 6rem;
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+    border: none;
+    box-shadow: 3px 3px 12px grey;
+  }
+  
+  #hamburger-btn.open span:nth-child(2) {
+    display: block;
+    width: 6rem;
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+    border: none;
+    box-shadow: 3px 3px 12px grey;
+  }
+
+/************** FOOTER **************/
+
+  footer {
+    padding: .25rem;
+    background-color: #E0E1DD;
+    color: #0D1B2A;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Halant", serif;
+  }
+
+  footer img {
+    padding: 1rem;
+    width: 5rem;
+  }
+
+  #footer-info a {
+    text-decoration: none;
+  }
+
+  #copyright {
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+
+  /************** SERVICES **************/
+
+  #services {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #0D1B2A;
+    max-width: 80%;
+  }
+
+  #services h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  #service-btns {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  #reception-btn {
+    margin: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Halant", serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color:#E0E1DD;
+    background-color: #0D1B2A;
+    border-radius: 15px;
+    border: none;
+  }
+
+  #reception-btn:hover {
+    box-shadow: 5px 5px 12px #565656;
+    transition: .35s;
+  }
+
+  #missionary-btn {
+    margin: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Halant", serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color:#E0E1DD;
+    background-color: #0D1B2A;
+    border-radius: 15px;
+    border: none;
+  }
+
+  #missionary-btn:hover {
+    box-shadow: 5px 5px 12px #565656;
+    transition: .35s;
+  }
+
+  #services h1 {
+    font-family: 'Halant', serif;
+  }
+
+  #services h2 {
+    font-family: 'Halant', serif;
+  }
+
+  #services ul {
+    font-family: 'Average', serif;
+    font-size: 1.25rem;
+    line-height: 1.75em;
+  }
+
+  #additional-resources {
+    grid-column: 2/3;
+    margin-top: 4rem;
+    border: none;
+  }
+
+  /************** MISSIONARY PAGE **************/
+
+  #missionary {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10rem;
+    color: #0D1B2A;
+    max-width: 80%;
+  }
+ 
+  #missionary h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+    font-family: 'Halant', serif;
+    font-size: 1.35rem;
+    font-weight: bold;
+  }
+
+  #missionary #m-contact {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  #missionary-img img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%; 
+    border-radius: 15px; 
+    box-shadow: 5px 5px 5px #565656;
+    border: solid 5px #0D1B2A;
+  }
+
+  #missionary p {
+    font-family: 'Average', serif;
+    font-size: 1rem;
+    line-height: 1.75em
+  }
+
+  #missionary ul {
+    font-family: 'Average', serif;
+    font-size: 1rem;
+    line-height: 1.75em;
+  }
+
+  #missionary-room {
+    padding: 1rem;
+  }
+
+  #missionary-room img {
+    display: flex;
+    margin: auto;
+    max-width: 50%;
+    border-radius: 15px; 
+    box-shadow: 5px 5px 5px #565656;
+    border: solid 5px #0D1B2A;
+  }
+
+  #back-btn {
+    margin: 3rem;
+    float: right;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Halant", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    color:#E0E1DD;
+    background-color: #0D1B2A;
+    border-radius: 15px;
+    border: none;
+  }
+
+  #back-btn:hover {
+    box-shadow: 5px 5px 12px #565656;
+    transition: .35s;
+  }
+
+/**** MISSIONARY FORM ****/
+
+  #missionary-form-div {
+    display: flex;
+    margin: auto;
+    background-color: #0D1B2A;
+    color:#E0E1DD;
+    border-radius: 15px;
+    width: 24rem;
+  }
+
+  form {
+    width: 24rem;
+  }
+
+  form fieldset{
+    margin: 2rem;
+  }
+
+  form fieldset #legend{
+    font-family: 'Average', serif;
+    line-height: 2rem;
+    letter-spacing: 0.06em;
+    color: #E0E1DD;
+    font-size: 1rem;
+  }
+
+  form label.info{
+    display: block;
+    margin-top: 0.75rem;
+    font-family: 'Average',serif;
+    letter-spacing: 0.10em;
+    color: #E0E1DD;
+  }  
+
+  form label.info input{
+    display: block;
+    padding: .75rem;
+    width: 12rem;
+  }
+
+  form textarea{
+    display: block;
+    width: 100%;
+    max-width: 13rem;
+    min-height: 9rem;
+  }
+
+  fieldset {
+    border-radius: 15px;
+  }
+
+  #legend {
+    margin: 1rem;
+    border-radius: 15px;
+  }
+
+  input.submitBtn{
+    margin: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Halant", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    color:#0D1B2A;
+    background-color: #E0E1DD;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  input.submitBtn:hover {
+    box-shadow: 3px 3px 10px #BBB;
+    transition: .35s;
+  }
+
+
+  /************** THANK YOU **************/
+
+  #thank-you{
+    margin: auto;
+    max-width: 80%;
+  }
+
+  #message-box {
+    margin: 1rem;
+    padding: 1rem;
+    border-bottom: 2px solid #0D1B2A;
+    border-top: 2px solid #0D1B2A;
+  }
+
+  #thank-you h1 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Halant', serif;
+    font-size: 2rem;
+  }
+
+  #thank-you p {
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+    justify-content: center;
+    font-family: 'Average', serif;
+    font-size: 1.25rem;
+  }
+
+  /*********** RECEPTION PAGE **************/
+
+  #reception {
+    display: block;
+    margin: auto;
+    padding-bottom: 3rem;
+    color: #0D1B2A;
+    max-width: 80%;
+  }
+
+  #reception h1 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1.5rem;
+    font-family: 'Halant', serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  #wedding-img img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 85%; 
+    border-radius: 15px; 
+    box-shadow: 5px 5px 5px #565656;
+    border: solid 5px #0D1B2A;
+  }
+
+  #wedding-info {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  #wedding-p {
+    font-family: 'Average', serif;
+    font-size: 1.30rem;
+    line-height: 1.75em
+  }
+
+  #reception-ul {
+    font-family: 'Average', serif;
+    font-size: 1.25rem;
+    line-height: 1.75em;
+  }
+
+  #reception-back-btn {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: "Halant", serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    color:#E0E1DD;
+    background-color: #0D1B2A;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+
+  #reception-back-btn:hover {
+    box-shadow: 5px 5px 12px #565656;
+    transition: .35s;
+  }
+
+   /*********** CONTACT PAGE **************/
+
+   .contact-us-photo img {
+    object-fit: cover;
+    width: 100%;
+    height: 55rem; 
+  }
+
+   #contact-us h1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    padding: 1.5rem;
+    left: 20%;
+    right: 20%;
+    font-family: 'Halant', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0D1B2A;
+   }
+
+   #contact-us form {
+    position: absolute;
+    margin-top: 6rem;
+    background-color: #0D1B2A;
+    border-radius: 15px;
+   }
+
+   /*********** RESERVATIONS **************/
+
+   .reservations {
+    display: block;
+    margin: auto;
+    padding-bottom: 3rem;
+    color: #0D1B2A;
+    max-width: 80%;
+   }
+
+   .reservation-photo img {
+    object-fit: cover;
+    width: 100%;
+    height: 92rem; 
+  }
+
+   #reservations h1 {
+    display: flex;
+    justify-content: center;
+    left: 20%;
+    right: 20%;
+    position:absolute;
+    padding: 1.5rem;
+    color: white;
+    font-family: 'Halant', serif;
+    font-size: 2rem;
+    font-weight: bold;
+   }
+
+   #reservation-form {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    margin-top: 8rem;
+    left: 10%;
+    right: 10%;
+    background-color: #0D1B2A;
+    color:#E0E1DD;
+    border-radius: 15px;
+    width: 24rem;
+   }
+
+   #drop-down {
+    display: block;
+    margin-top: 0.75rem;
+    font-family: 'Average',serif;
+    letter-spacing: 0.10em;
+    color: #E0E1DD;
+   }
+
+   #check-in {
+    display: block;
+    margin-top: 0.75rem;
+    font-family: 'Average',serif;
+    letter-spacing: 0.10em;
+    color: #E0E1DD;
+   }
+
+   /********** TEMPLES **********/
+
+   #temples {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 3rem;
+    color: #0D1B2A;
+    max-width: 80%;
+  }
+
+  #temple-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: 'Halant', serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  #temple-cards {
+    display: grid;
+    grid-column: 1/4;
+    align-self: center;
+    padding: 2rem 4rem;
+    color: #696969
+  }
+  
+  .cards {
+    grid-column: 1/4;
+    display: grid;
+    padding: .25rem;
+    margin: auto;
+    width: 99%;
+    color: #0D1B2A;
+    background-color: #0D1B2A;
+    box-shadow: 3px 3px 12px grey;
+    border-radius: 15px;
+  }
+  
+  .cards section {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 15px;
+    background-color: #E0E1DD;
+  }
+
+  .cards section img {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    border: 5px solid #0D1B2A;
+    box-shadow: 3px 3px 12px black;
+    border-radius: 15px;
+  }
+
+  .cards section h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Halant', serif;
+    font-size: 1.35rem;
+  }
+
+  .cards section p {
+    margin: 1rem;
+    font-family: 'Average', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .cards section li {
+    margin: 1rem 2rem;
+    font-family: 'Average', serif;
+  }
+
+  /*********** LIKE BUTTON **************/
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;    
+  }
+
+ .wrapperOne {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem auto;
+    padding: 1rem;
+    width: 15rem;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    font-family: 'Halant', serif;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  .wrapperOne h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    margin: auto;
+  }
+
+  .like, .dislike {
+    display: flex;
+    margin: 1rem 3rem;
+    width: 0rem;
+    font-size: 20px;
+    color: #E0E1DD;
+  }
+
+  #likeCount, #dislikeCount, #likeCount2, #dislikeCount2, #likeCount3, #dislikeCount3, #likeCount4, #dislikeCount4 {
+    display: flex;
+    width: 4rem;
+    place-items: center;
+    text-align: center;
+    border: none;
+    background: none;
+    background-size: 0;
+    font-size: 20px;
+    color: #E0E1DD;
+  }
+
+  .icon{
+    font-size: 30px;
+    color: #E0E1DD;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+    .icon:hover{
+    color: red;
+    transform: scale(1.2);
+  }
+
+  /*********** HOME **************/
+
+  .header-box {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: #BBB;
+  }
+
+  .header-box img {
+    object-fit: cover;
+    width: 100%;
+    height: 25rem;
+  }
+
+  .header-box h2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3rem;
+    padding: .5rem;
+    position: absolute;
+    width: 100%;
+    font-family: 'Italianno', serif;
+    font-size: 2.3rem;
+    color: white;
+    background-color: RGB(13, 27, 42, 0.8);
+  }
+
+  .header-box button {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    bottom: 30px;
+    padding: .5rem;
+    font-family: "Italianno", serif;
+    background-color: RGB(13, 27, 42, 0.8);
+    color: #E0E1DD;
+    font-size: 1.7rem;
+    border-radius: 15px;
+    border: none;
+  }
+
+  .header-box button:hover {
+    background-color: #0D1B2A;
+    box-shadow: 3px 3px 12px grey;
+    transition: 0.6s;
+  }
+
+  /*** BODY SECOND ***/
+
+  .body-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #home-temple-info {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto;
+    padding: 1.2rem;
+    width: 18em;
+    background-color: #0D1B2A;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px darkgrey;
+  }
+  
+  #temple-info-div {
+    padding: .5rem;
+    background-color: #E0E1DD;
+  }
+
+  #temple-info-div hr{
+    width: 80%;
+  }
+
+  #rome-temple-image img {
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    width: 50%;
+    min-width: 15rem;
+    border: 3px solid #0D1B2A;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px grey;
+  }
+
+  #temple-info-div h2 {
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+    font-family: 'Halant', serif;
+    font-weight: bold;
+  }
+
+  #rome-temple-blurb {
+    padding: 0 1.5rem;
+    font-family: 'Average', serif;
+    font-size: 1.2rem;
+  }
+
+  .weather-box-section {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto;
+    padding: 1.2rem;
+    width: 18em;
+    background-color: #0D1B2A;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px darkgrey;
+  }
+
+  #weather-box {
+    width: 18em;
+    border-radius: 10px;
+    background-color: #E0E1DD;
+  }
+
+  #rome-weather {
+    display: flex;
+    justify-content: center;
+    font-family: 'Halant', serif;
+    font-weight: bold;
+    color: #0D1B2A
+  }
+
+  .weather-details h3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Halant', serif;
+    color: #0D1B2A;
+  }
+
+  .weather-details hr {
+    width: 80%;
+  }
+
+  .weather-details {
+    margin: 1rem;
+  }
+
+  .weather-image-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  #img-description, #current-temp, #current-humidity, #current-precipitation, #current-wind, #wind-chill{
+    margin-left: 1rem;
+  }
+
+  .forecast-info {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto;
+    padding: 1.2rem;
+    width: 18em;
+    background-color: #0D1B2A;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px darkgrey;
+  }
+
+  .forecast-div {
+    width: 18em;
+    border-radius: 10px;
+    background-color: #E0E1DD; 
+  }
+
+  .forecast-div h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Halant', serif;
+    font-weight: bold;
+    color: #0D1B2A;
+  }
+
+  .forecast-div #inputContainer {
+    display: none;
+  }
+
+  .forecast-div h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Halant', serif;
+  }
+
+  .forecast-div hr {
+    width: 80%;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+  }
+
+  #iconsContainer {
+    display: flex;
+    justify-content: center;
+  }

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="name" content="Kristi M. Poulsen">
+    <meta name="description" content="This is a webpage used to teach us how to construct a simple site.">
+
+    <title>Temple Inn and Suits - Temples</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <script src="js/scripts.js" defer></script>
+    <script src="js/json.js" defer></script>
+    <script src="js/like-button.js" defer></script>
+    
+  </head>
+
+  <body>
+    <div id="notify"><span></span></div>
+    <header>
+      <div id="header-box">
+        <div id="logo-box">
+            <source srcset="images/temple-inn-and-suits-logo.webp">      
+            <a href="index.html"><img src="images/temple-inn-and-suites-logo.png" alt="Logo"></a>
+        </div>
+      <nav>
+        <button id="hamburger-btn"><span>&#8801;</span><span>x</span></button>
+        <ul id="primarynav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+        <div id="social-media">
+          <a id="twitter" href="https://www.twitter.com/" target="_blank">
+            <img src="images/twitter.png" alt="twitter">
+          </a>
+          <a id="facebook" href="https://www.facebook.com/" target="_blank">
+            <img src="images/facebook.png" alt="facebook">
+          </a>
+          <a id="instagram" href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.png" alt="instagram">
+          </a>
+        </div>
+      </div>
+      <nav>
+        <ul id="secondary-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div id="header-box2">
+        <span id="current-date"></span>
+      </div>
+    </header>
+
+    <main class="temples">
+      <h1 id="temple-h1">Temples</h1>
+      <div id="temple-cards">
+        <div class="cards"></div>
+      </div>
+      <div class="button-container">
+        <div class="wrapperOne">
+          <h4>Washington D.C. Temple</h4>
+          <div class="like">
+            <i onclick="count()" class="fas fa-heart icon"></i>
+            <br>
+            <input id="likeCount" value="0">
+          </div>
+          <div class="dislike">
+            <i onclick="count1()" class="fas fa-heart-broken icon"></i>
+            <br>
+            <input id="dislikeCount" value="0">
+          </div>
+        </div>
+
+        <div class="wrapperOne">
+          <h4>Rome, Italy Temple</h4>
+          <div class="like">
+            <i onclick="count2()" class="fas fa-heart icon"></i>
+            <br>
+            <input id="likeCount2" value="0">
+          </div>
+          <div class="dislike">
+            <i onclick="count3()" class="fas fa-heart-broken icon"></i>
+            <br>
+            <input id="dislikeCount2" value="0">
+          </div>
+        </div>
+
+        <div class="wrapperOne">
+          <h4>Lima, Peru Temple</h4>
+          <div class="like">
+            <i onclick="count4()" class="fas fa-heart icon"></i>
+            <br>
+            <input id="likeCount3" value="0">
+          </div>
+          <div class="dislike">
+            <i onclick="count5()" class="fas fa-heart-broken icon"></i>
+            <br>
+            <input id="dislikeCount3" value="0">
+          </div>
+        </div>
+
+        <div class="wrapperOne">
+          <h4>Houston, Texas Temple</h4>
+          <div class="like">
+            <i onclick="count6()" class="fas fa-heart icon"></i>
+            <br>
+            <input id="likeCount4" value="0">
+          </div>
+          <div class="dislike">
+            <i onclick="count7()" class="fas fa-heart-broken icon"></i>
+            <br>
+            <input id="dislikeCount4" value="0">
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <picture id="footer-logo">
+        <source srcset="images/temple-inn-and-suits-logo.webp"> 
+        <img src="images/temple-inn-and-suits-logo.png" alt="Logo"> 
+      </picture>
+      <div id="footer-info">
+        <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        <p>000-000-0000</p>
+        <p><a href="https://goo.gl/maps/nBaaS884ptwC9eLU9" target="_blank">🌐 Google Maps</a></p>
+      </div>
+      <div id="copyright">
+        <p>&copy; <span id="year"></span> The Temple Inn & Suits <span id="lmod"></span></p>
+      </div>
+    </footer>
+  </body>
+</html>

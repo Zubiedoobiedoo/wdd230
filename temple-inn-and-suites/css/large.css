@@ -1,0 +1,350 @@
+
+@media only screen and (min-width: 90rem) {  
+    
+    /****************NAVIGATION****************/
+    
+      #logo-box img {
+        width: 6rem;
+      }
+      #primarynav li {
+        width: 12rem;
+        text-align: center;
+      }
+  
+      #primarynav a:hover {
+          border-radius: 20px;
+      }
+    
+      #social-media img {
+        width: 1.5rem;
+      }
+    
+      #primarynav a {
+        font-size: 2rem;
+        padding: .5rem;
+      }
+  
+      #header-box2, #notify {
+        display: none;
+      }
+    
+    /****************FOOTER****************/
+  
+      footer img {
+        padding: 1rem;
+          width:9rem;
+        }
+  
+      #footer-info {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          color: #0D1B2A;
+          align-items: flex-end;
+          justify-items: center;
+      }
+  
+    /****************SERVICES****************/
+  
+    #services h1 {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  
+    #service-btns {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  
+    #reception-btn {
+      margin: 1rem;
+      padding-left: 3.5rem;
+      padding-right: 3.5rem;
+      padding-top: 1.1rem;
+      padding-bottom: 1.1rem;
+      font-size: 1.5rem;
+    }
+    
+    #missionary-btn {
+      margin: 1rem;
+      padding-left: 3.5rem;
+      padding-right: 3.5rem;
+      padding-top: 1.1rem;
+      padding-bottom: 1.1rem;
+      font-size: 1.5rem;
+    }
+  
+    /************** MISSIONARY PAGE **************/
+  
+    #missionary-top {
+      margin-bottom: 1rem;
+      padding-bottom: 10rem;
+    }
+    
+    #missionary h1 {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  
+    #missionary-img {
+      display: flex;
+      float: right;
+      padding: 1rem;
+    }
+  
+    /***** MISSIONARY FORM *****/
+  
+    #missionary-form-div {
+      width: 50rem;
+    }
+  
+    form {
+      width: 50rem;
+    }
+  
+    form label.info input{
+      width: 29rem;
+    }
+  
+    form textarea{
+      max-width: 30rem;
+      min-height: 8rem;
+    }
+  
+    /**************** THANK YOU ****************/
+  
+    #message-box {
+      margin: 1rem;
+      padding: 2rem;
+    }
+    
+    #thank-you h1 {
+      font-size: 3rem;
+    }
+  
+    #thank-you p {
+      font-size: 1.25rem;
+    }
+  
+    #go-back-btn {
+      font-size: 1.5rem;
+    }
+  
+    /*********** RECEPTION PAGE **************/
+  
+    #reception {
+      margin-bottom: 12rem;
+    }
+    
+    #reception h1 {
+      font-size: 3rem;
+    }
+  
+    #wedding-img img {
+      display: flex;
+      margin: auto;
+      margin: 3rem;
+      float: left;
+      width: 40rem; 
+    }
+  
+    #reception-back-btn {
+      display: block;
+      margin-top: 10rem;
+      float: right;
+    }
+  
+    /*********** CONTACT PAGE **************/
+    
+    #contact-us form {
+      margin-top: 8rem;
+     } 
+    
+      #contact-us h1 {
+        color: white;
+        font-family: 'Halant', serif;
+        font-size: 3rem;
+        font-weight: bold;
+       }
+  
+     /*********** RESERVATIONS **************/
+  
+     #reservations h1 {
+      font-size: 3rem;
+     }
+  
+     #reservation-form {
+      margin-top: 10rem;
+      width: 50rem;
+     }
+  
+     #reservation form {
+      width: 50rem;
+    }
+  
+    #reception-fieldset {
+      width: 50rem;
+    }
+  
+     form label.info input{
+      width: 29rem;
+    }
+  
+    form textarea{
+      max-width: 30rem;
+      min-height: 8rem;
+    }
+  
+    /********** TEMPLES **********/
+    
+    #temple-h1 {
+      font-size: 3rem;
+    }
+    
+    .cards {
+      display: grid;
+      justify-content: space-evenly;
+      width: 107rem;
+    }
+    
+    .cards section {
+      margin: 2.5rem;
+      width: 20rem;
+    }
+    
+    .cards section img {
+      width: 87%
+    }
+    
+    .cards section h1 {
+      font-size: 1.8rem;
+    }
+  
+    .cards section p {
+      margin: 1rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  
+    .cards section li {
+      margin: 1rem 2rem;
+      font-size: 1rem;
+    }
+  
+      /*********** LIKE BUTTON **************/
+  
+      
+    .button-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      margin: auto;    
+    }
+  
+    .wrapperOne {
+      display: flex;
+      margin: auto;
+      margin-top: 2rem;
+    }
+      
+      .like, .dislike {
+        font-size: 25px;
+      }
+    
+      #likeCount, #dislikeCount, #likeCount2, #dislikeCount2, #likeCount3, #dislikeCount3, #likeCount4, #dislikeCount4 {
+        font-size: 25px;
+    
+      }
+  
+      /*********** HOME PAGE **************/
+  
+      .header-box img {
+        object-fit: cover;
+        width: 100%;
+        height: 35rem;
+      }
+      
+      .header-box h2 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 3rem;
+        padding: .5rem;
+        position: absolute;
+        width: 100%;
+        font-family: 'Italianno', serif;
+        font-size: 5rem;
+        color: white;
+        background-color: RGB(13, 27, 42, 0.8);
+      }
+    
+      .header-box button {
+        position: absolute;
+        bottom: 15px;
+        right: 30px;
+        bottom: 30px;
+        padding: .75rem;
+        font-family: "Italianno", serif;
+        background-color: RGB(13, 27, 42, 0.8);
+        color: #E0E1DD;
+        font-size: 3rem;
+        border-radius: 15px;
+        border: none;
+      }
+  
+      /*** BODY SECOND ***/
+  
+      .body-box {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: auto;
+      }
+  
+      #home-temple-info {
+        display: flex;
+        margin: 1rem;
+        width: 20rem;
+        height: 40rem;
+      }
+  
+      #temple-info-div h2 {
+        font-size: 2rem;
+      }
+  
+      #rome-temple-blurb {
+        font-size: 1.1rem;
+      }
+      
+      .weather-box-section {
+        display: flex;
+        margin: 1rem;
+        height: 40rem;
+        width: 20rem;
+      }
+  
+      #weather-box {
+        width: 20rem;
+      }
+      .forecast-info {
+        display: flex;
+        margin: 1rem;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+      }
+  
+      .forecast-div {
+        height: 40rem;
+        width: 20rem;
+      }
+    }

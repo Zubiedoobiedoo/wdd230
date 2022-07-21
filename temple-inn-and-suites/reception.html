@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kristi M. Poulsen">
+    <meta name="description" content="This webpage is for The Temple Inn & Suites Company">
+
+    <title>Temple Inn and Suites - Receptions</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <script src="js/scripts.js" defer></script>
+    
+  </head>
+
+  <body>
+    <div id="notify"><span></span></div>
+    <header>
+      <div id="header-box">
+        <div id="logo-box">
+          <source srcset="images/temple-inn-and-suites-logo.webp"> 
+          <a href="index.html"><img src="images/temple-inn-and-suites-logo.png" alt="Logo"></a>
+        </div>
+      <nav>
+        <button id="hamburger-btn"><span>&#8801;</span><span>x</span></button>
+        <ul id="primarynav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+        <div id="social-media">
+          <a id="twitter" href="https://www.twitter.com/" target="_blank">
+            <img src="images/twitter.png" alt="twitter">
+          </a>
+          <a id="facebook" href="https://www.facebook.com/" target="_blank">
+            <img src="images/facebook.png" alt="facebook">
+          </a>
+          <a id="instagram" href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.png" alt="instagram">
+          </a>
+        </div>
+      </div>
+      <nav>
+        <ul id="secondary-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div id="header-box2">
+        <span id="current-date"></span>
+      </div>
+    </header>
+
+    <main id="reception">
+      <div class="reception-div">
+        <h1>Temple Receptions</h1>
+        <picture id="wedding-img">
+          <source srcset="images/wedding-picture.webp" media="(min-width:640px) and (max-width:1007px)">
+          <img src="images/wedding-picture.jpg" alt="Married Couple">
+        </picture>
+        <div id="wedding-info">
+          <p id="wedding-p">There is no place better than the Temple Inn and Suites for 
+            wedding receptions! We offer:
+          </p>
+          <ul id="reception-ul">
+            <li>10% off rooms for the bride and groom</li>
+            <li>10% off catering</li>
+            <li>10% off the Gold Room</li>
+            <li>Shuttle service for family and friends to the temple</li>
+          </ul>
+        </div>
+        </div>
+      <div class="reception-back-button">
+        <a href="services.html"><button id="reception-back-btn">Go Back</button></a>
+      </div>
+    </main>
+
+
+    <footer>
+      <picture id="footer-logo">
+        <source srcset="images/temple-inn-and-suites-logo.webp"> 
+        <img src="images/temple-inn-and-suites-logo.png" alt="Logo"> 
+      </picture>
+      <div id="footer-info">
+        <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        <p>000-000-0000</p>
+        <p><a href="https://goo.gl/maps/nBaaS884ptwC9eLU9" target="_blank">🌐 Google Maps</a></p>
+      </div>
+      <div id="copyright">
+        <p>&copy; <span id="year"></span> The Temple Inn & Suites <span id="lmod"></span></p>
+      </div>
+    </footer>
+  </body>
+</html>
