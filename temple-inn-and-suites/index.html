@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="name" content="Kristi M. Poulsen">
+    <meta name="description" content="This is a webpage used to teach us how to construct a simple site.">
+
+    <title>Temple Inn and Suits - Home</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <script src="js/scripts.js" defer></script>
+    <script src="js/weather.js" defer></script>
+    <script src="js/forecast.js" defer></script>
+    
+  </head>
+
+  <body onload="DefaultScreen()">
+    <div id="notify"><span></span></div>
+    <header>
+      <div id="header-box">
+        <div id="logo-box">
+          <source srcset="images/temple-inn-and-suites-logo.webp"> 
+          <a href="index.html"><img src="images/temple-inn-and-suites-logo.png" alt="Logo"></a>
+        </div>
+      <nav>
+        <button id="hamburger-btn"><span>&#8801;</span><span>x</span></button>
+        <ul id="primarynav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+        <div id="social-media">
+          <a id="twitter" href="https://www.twitter.com/" target="_blank">
+            <img src="images/twitter.png" alt="twitter">
+          </a>
+          <a id="facebook" href="https://www.facebook.com/" target="_blank">
+            <img src="images/facebook.png" alt="facebook">
+          </a>
+          <a id="instagram" href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.png" alt="instagram">
+          </a>
+        </div>
+      </div>
+      <nav>
+        <ul id="secondary-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div id="header-box2">
+        <span id="current-date"></span>
+      </div>
+    </header>
+
+    <main class="home">
+      <div class="header-box">
+        <div id="h2">
+          <h2>Welcome to The Temple Inn and Suites</h2>
+        </div>
+        <picture class="header-photo">
+          <source media="(max-width: 500px)" srcset="images/hotel-small.webp">
+          <source media="(max-width: 850px)" srcset="images/hotel-medium.webp">
+          <source media="(max-width: 1152px)" srcset="images/hotel.webp">
+          <img src="images/hotel.jpg" alt="Hotel">
+        </picture>
+        <a href="reservation.html"><button class="styling-button">Make a Reservation</button></a>
+      </div>
+
+      <div class="body-box">
+
+        <div id="home-temple-info">
+          <div id="temple-info-div">
+          <picture id="rome-temple-image">
+            <img src="images/rome-temple.jpg" alt="Rome Temple">
+          </picture>
+          <h2>Rome, Italy Temple</h2>
+          <hr>
+          <p id="rome-temple-blurb">
+            The Rome, Italy temple was is the 162nd temple to be added to the vast list of temples owned
+            by the Church of Jesus Christ of Latter-Day Saints. The temple was first announced on 4 October
+            2008 and the ground was broken on 23 October 2010. After about either years of construction, 
+            the temple was dedicated on 10 Marh 2019 by President Russel M. Nelson.
+          </p>
+        </div>
+        </div>
+        
+
+            <section class="weather-box-section">
+              <div id="weather-box">
+              <h2 id="rome-weather">Rome, Italy</h2>
+                <div class="weather-details">
+                    <h3>Weather Summary</h3>
+                    <hr>
+                    <div class="weather-image-div">
+                      <div id="image-import"></div>  
+                    </div>
+                      <div class="weather-info">
+                          <p class="label">Currently:</p>
+                          <p class="value" id="img-description"></p>
+                      </div>
+                      <div class="weather-info">
+                          <p class="label">Temperature: </p>
+                          <p class="value" id="current-temp"></p>
+                      </div>
+                      <div class="weather-info">
+                          <p class="label">Humidity:</p>
+                          <p class="value" id="current-humidity"></p>
+                      </div>
+                      <div class="weather-info">
+                          <p class="label">Precipitation:</p>
+                          <p class="value" id="current-precipitation"></p>
+                      </div>
+                      <div class="weather-info">
+                          <p class="label">Wind Speed:</p>
+                          <p class="value" id="current-wind"></p>
+                      </div>
+                      <div class="weather-info">
+                          <p class="label">Wind chill:</p>
+                          <p class="value" id="wind-chill"></p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+            
+          <section class="forecast-info">
+            <div class="forecast-div">
+              <h2>3 Day Weather Forecast</h2>
+              <p id="inputContainer"><input id="cityInput"></p>      
+              <h3 id="cityName"></h3>
+              <hr>
+            <div id="weatherContainer">
+              <div id="iconsContainer">    
+                  <div class="icons">
+                      <p class="weather" id="day1"></p>
+                      <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
+                      <p class="minValues" id="day1Min">Loading...</p>
+                      <p class="maxValues" id="day1Max">Loading...</p>
+                  </div>
+                  <div class="icons">
+                      <p class="weather" id="day2"></p>
+                      <div class="image"><img src="dots.png" class="imgClass" id="img2"></div>
+                      <p class="minValues" id="day2Min">Loading...</p>
+                      <p class="maxValues" id="day2Max">Loading...</p>
+                  </div>
+                  <div class="icons">
+                      <p class="weather" id="day3"></p>
+                      <div class="image"><img src="dots.png" class="imgClass" id="img3"></div>
+                      <p class="minValues" id="day3Min">Loading...</p>
+                      <p class="maxValues" id="day3Max">Loading...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section>
+          </div>
+      </div>
+    </main>
+
+    <footer>
+      <picture id="footer-logo">
+        <source srcset="images/temple-inn-and-suites-logo.webp"> 
+        <img src="images/temple-inn-and-suites-logo.png" alt="Logo"> 
+      </picture>
+      <div id="footer-info">
+        <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        <p>000-000-0000</p>
+        <p><a href="https://goo.gl/maps/nBaaS884ptwC9eLU9" target="_blank">🌐 Google Maps</a></p>
+      </div>
+      <div id="copyright">
+        <p>&copy; <span id="year"></span> The Temple Inn & Suites <span id="lmod"></span></p>
+      </div>
+    </footer>
+  </body>
+</html>
