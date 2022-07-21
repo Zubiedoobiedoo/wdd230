@@ -1,4 +1,4 @@
-const requestURL = "https://zubiedoobiedoo.github.io/wdd230/temple-inn-and-suits/json/data.json";
+const requestURL = "https://zubiedoobiedoo.github.io/wdd230/temple-inn-and-suites/json/data.json";
 const cards = document.querySelector(".cards");
 
 
